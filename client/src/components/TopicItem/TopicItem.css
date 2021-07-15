@@ -1,0 +1,33 @@
+.TopicItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  height: 5rem;
+  background-color: beige;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0.5rem;
+}
+
+.score-number {
+  display: flex;
+  justify-content: center;
+}
+
+.topic-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.delete-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
