@@ -5,8 +5,8 @@ const ctrl = require('./controllers/topic')
 
 router.get('/topics', ctrl.getAll);
 router.post('/topics', ctrl.addTopic);
-// router.delete('/topics/:id', topics.deleteTopic);
-// router.put('/topics:/id/up', topics.updateTopic);
-// router.put('/topics:/id/down', topics.updateTopic);
+router.delete('/topics/:id', ctrl.deleteTopic);
+router.put('/topics/:id/up', ctrl.voteUp);
+router.put('/topics/:id/down', ctrl.voteDown);
 
 module.exports = router;
